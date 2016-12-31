@@ -1,0 +1,123 @@
+Fixing what ain't broke: Ubuntu's theme debacle
+###############################################
+:date: 2011-08-13 05:11
+:author: admin
+:category: Uncategorized
+:slug: 288
+:status: draft
+
+.. raw:: html
+
+   <div class="zemanta-img" style="margin: 1em; display: block;">
+
+[caption id="" align="alignright" width="240" caption="(I suppose I
+should have added the new theme.)"]\ |Ubuntu wordmark
+official|\ [/caption]
+
+.. raw:: html
+
+   </div>
+
+Ubuntu's slogan is "Linux for Human Beings". While it's cliché to say
+that people don't like change, it seems to me that most people are very
+willing to accept change when it's worthwhile. And the converse is also
+true: when a change is not worthwhile or the benefit is not explained,
+change becomes an annoyance and the decision to change is derided. And
+so it seems with the Canonical theme change in Lucid Lynx (10.04) which
+made the meddlesome and poorly-explained decision to move the window
+controls from the right to the left.
+
+`My wife <http://beaconcoaching.com>`__ has been using Ubuntu for years.
+When I upgraded her from Jaunty to Lucid recently, literally her first
+comment was "Can we move the buttons back? I was used to them where they
+were." [A: Yes. See below.]
+
+If you're new to a system, it probably doesn't matter. Certainly, if
+you're coming from
+
+-- when the the juice is worth the squeeze, as my dad would say
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+I can't imagine why this change was deemed important at all, let alone
+so important that it became the default layout even for existing users.
+Moreover, I can't help but wonder whether this will mark the point in
+Ubuntu's popularity at which it is drawn into irrelevant hyperpolishing
+at the expense of losing focus on function. Don't get me wrong -- I like
+the aesthetic of the new theme, but I was used to looking for window
+buttons in the upper right and I don't see what I get out of their now
+being on the left. Fortunately, focus on functionality has not been lost
+yet: Lucid alpha 3 is way more stable than Karmic production in my
+hands, boots extremely quickly, and has lots of other genuine
+improvements.</p>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+<p>If you're new to a system, it probably doesn't matter. Certainly, if
+you're coming from </p>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+<p><br></p><p>-- when the the juice is worth the squeeze, as my dad
+would say</p><p>P.S. It's trivial to revert to the old layout. From the
+command line, do&nbsp;</p><p>[code]</p><p>gconf -s
+/apps/metacity/general/button\_layout -t string
+menu:minimize,maximize,close</p><p>[/code]</p><p><br></p>
+
+.. raw:: html
+
+   </div>
+
+I can't imagine why this change was deemed important at all, let alone
+so important that it became the default layout even for existing users.
+Moreover, I can't help but wonder whether this will mark the point in
+Ubuntu's popularity at which it is drawn into irrelevant hyperpolishing
+at the expense of losing focus on function. Don't get me wrong -- I like
+the aesthetic of the new theme, but I was used to looking for window
+buttons in the upper right and I don't see what I get out of their now
+being on the left. Fortunately, focus on functionality has not been lost
+yet: Lucid alpha 3 is way more stable than Karmic production in my
+hands, boots extremely quickly, and has lots of other genuine
+improvements.</p><p>If you're new to a system, it probably doesn't
+matter. Certainly, if you're coming from </p><p><br></p><p>-- when the
+the juice is worth the squeeze, as my dad would say</p><p>P.S. It's
+trivial to revert to the old layout. From the command line,
+do&nbsp;</p><p>[code]</p><p>gconf -s
+/apps/metacity/general/button\_layout -t string
+menu:minimize,maximize,close</p><p>[/code]</p><p><br></p>
+
+.. raw:: html
+
+   <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+
+|Reblog this post [with Zemanta]|\ 
+
+.. raw:: html
+
+   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script>
+
+.. raw:: html
+
+   </div>
+
+.. |Ubuntu wordmark official| image:: http://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TheUbuntuName.svg/300px-TheUbuntuName.svg.png
+   :width: 240px
+   :height: 54px
+   :target: http://commons.wikipedia.org/wiki/Image:TheUbuntuName.svg
+.. |Reblog this post [with Zemanta]| image:: http://img.zemanta.com/reblog_e.png?x-id=d124b5c9-a706-4fa0-ab35-95b3eb9082ee
+   :class: zemanta-pixie-img
+   :target: http://reblog.zemanta.com/zemified/d124b5c9-a706-4fa0-ab35-95b3eb9082ee/

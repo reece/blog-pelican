@@ -1,0 +1,39 @@
+VirtualBox BADSIG
+#################
+:date: 2011-08-13 05:11
+:author: reece
+:category: Problems of a Prop Head
+:slug: 218
+:status: draft
+
+| I recently got this on my `Ubuntu <http://www.ubuntu.com/>`__ 9.10
+  (Karmic) laptop:
+| [code='bash']
+| # apt-get update
+| ...
+| W: `GPG <http://www.gnupg.org/>`__ error:
+  http://download.virtualbox.org karmic Release: The following
+  signatures were invalid: BADSIG DCF9F87B6DFBCBAE Sun Microsystems,
+  Inc. (xVM `VirtualBox <http://www.virtualbox.org/>`__ archive signing
+  key)
+| [/code]
+
+Drat. My first suspicion was that the chronic laptop crashing under
+karmic koala caused the keyrings to become corrupted (I've had repeated
+file corruption elsewhere). So, I removed and rebuilt the keyrings:
+
+| [code='bash']
+| root@snafu:/etc/apt# mkdir rings
+| root@snafu:/etc/apt# mv secring.gpg trust\* rings/
+| root@snafu:/etc/apt# grep key: sources.list.d/\*.list \| cut -d: -f3-
+  \| sh -x
+| [/code]
+
+| Dang. Same problem. Then I stumbled upon a suggestion in the comments
+  in a blog to do this:
+| [code='bash']
+| root@snafu:/etc/apt# #sudo rm -f /var/lib/apt/lists/partial/\*
+| [/code]
+
+That worked, and I hate that it did... more bad juju for my current
+laptop+ubuntu setup.

@@ -1,0 +1,19 @@
+MacBook Pro Lucid Tips
+######################
+:date: 2011-08-13 05:11
+:author: admin
+:category: Uncategorized
+:slug: 317
+:status: draft
+
+Learn a few critical fx keys
+
+fn-shift-return = shift-insert = paste x clipboard
+
+fn-up, down, right, left
+
+laptop keys and mouse
+
+wanted: nvidia scripting
+
+fn-delete = um delete

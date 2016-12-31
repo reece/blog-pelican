@@ -1,0 +1,24 @@
+No, really, Apple is Evil
+#########################
+:date: 2011-08-13 05:11
+:author: reece
+:category: Uncategorized
+:slug: 319
+:status: draft
+
+http://news.cnet.com/8301-30684_3-20007146-265.html?tag=mncol;txt
+
+http://news.cnet.com/8301-31021_3-20007368-260.html
+
+Section 3.3.9 of the new agreement says that ad networks will only be
+allowed to share that data if:
+
+    The collection, use or disclosure is for the purpose of serving
+    advertising to Your Application; is provided to an independent
+    advertising service provider whose primary business is serving
+    mobile ads (for example, an advertising service provider owned by or
+    affiliated with a developer or distributor of mobile devices, mobile
+    operating systems or development environments other than Apple would
+    not qualify as independent); and the disclosure is limited to UDID,
+    user location data, and other data specifically designated by Apple
+    as available for advertising purposes.

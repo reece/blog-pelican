@@ -1,0 +1,66 @@
+Updating Ensembl 61 with dbSNP status
+#####################################
+:date: 2011-08-13 05:11
+:author: admin
+:category: Genome Commons, Genome Variation, Uncategorized
+:slug: 378
+:status: draft
+
+I've been using Ensembl recently to analyze and curate genomic
+variants. Unfortunately, the validation status information from dbSNP,
+the most common variant source, was not available in time for inclusion
+into the most recent Ensembl release (v 61, Feb 2011). This short post
+shows you how to update
+the﻿ homo\_sapiens\_variation\_61\_37f.﻿variation\_feature table.
+
+Kudos to the Ensembl folks who duly noted the omission on their `Known
+Data Bugs <http://uswest.ensembl.org/info/docs/knownbugs.html>`__ page:
+
+    .. rubric:: Missing SNP status (Human)
+       :name: missing-snp-status-human
+
+    .. rubric:: In release: 61
+       :name: in-release-61
+
+    We are missing information about validation status for most human
+    variations due to this data being unavailable from dbSNP at the time
+    of import. The validation status for each rsId (exported from dbSNP
+    on 2011-01-20) is available via FTP as a \ `tab-separated
+    file <ftp://ftp.ebi.ac.uk/pub/software/ensembl/snp/human/e61_rsid_validation_status.txt.gz>`__.
+
+\* Download the file above
+
+wget -P /tmp -nd
+ftp://ftp.ebi.ac.uk/pub/software/ensembl/snp/human/e61\_rsid\_validation\_status.txt.gz
+
+gunzip /tmp/e61\_rsid\_validation\_status.txt.gz
+
+﻿ftp.ebi.ac.uk/pub/software/ensembl/snp/human/e61\_rsid\_validation\_status.txt
+
+\* load the data
+
+create table e61\_rsid\_validation\_status (rs text, status text);
+
+LOAD DATA INFILE
+'/srv/mirrors/ftp.ebi.ac.uk/pub/software/ensembl/snp/human/e61\_rsid\_validation\_status.txt'
+into table e61\_rsid\_validation\_status
+
+N.B. errors: perms, sudo aa-complain /usr/sbin/mysqld
+
+\* issue the update
+
+update homo\_sapiens\_variation\_61\_37f.variation\_feature v,
+e61\_rsid\_validation\_status s set validation\_status=status where
+v.variation\_name=s.rs;
+
+ugh. that's s-l-o-w. For reasons beyond my MySQL ken, this works better:
+
+﻿mysql> update variation,(select \* from
+reece.e61\_rsid\_validation\_status limit 1000000 offset 0) X set
+validation\_status=X.status where variation.validation\_status is NULL
+and variation.name=X.rs;Query OK, 818800 rows affected (1 min 18.71
+sec)Rows matched: 818800  Changed: 818800  Warnings: 0
+
+ 
+
+ 

@@ -4,6 +4,7 @@ syntax: glob
 *.orig
 *~
 __pycache__
+archive
 blog-detritus
 output
 pelican.pid

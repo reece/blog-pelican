@@ -1,0 +1,13 @@
+Installing svm to manage Scala versions
+#######################################
+:date: 2011-08-13 05:11
+:author: reece
+:category: Uncategorized
+:slug: 436
+:status: draft
+
+| git clone git://github.com/toolbear/svm.git
+  ~/opt/scala-version-manager
+| source ~/opt/scala-version-manager/svm.sh
+| svm install v2.8.1.final
+| svm use v2.8.1.final

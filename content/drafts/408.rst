@@ -1,0 +1,15 @@
+Differences between transcripts in Ensembl and NCBI
+###################################################
+:date: 2011-08-13 05:11
+:author: reece
+:category: Uncategorized
+:slug: 408
+:status: draft
+
+I've written `some code to translate HGVS-formatted
+variants <http://bitbucket.org/reece/bio-hgvs-perl>`__ between genomic,
+transcript, and protein coordinates. It's built on
+`Ensembl <http://www.ensembl.org/>`__, a database joint venture from
+EMBL+EBI and Sanger+Wellcome Trust.
+
+ 

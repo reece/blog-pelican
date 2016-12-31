@@ -1,0 +1,23 @@
+shebang
+#######
+:date: 2011-08-25 16:42
+:author: admin
+:category: Uncategorized
+:slug: 463
+:status: draft
+
+Sidenote: ``#!`` is called a shebang and is evaluated when the shell
+(technically, execve in the kernel) attempts to execute the named
+script. This implies that the script has execute permissions.
+
+The rest of the shebang line is the program and optional arguments
+that are used to execute the text file. You'll typically see
+``/usr/bin/python`` there for Python scripts. However, it's often
+useful to use the first python in your PATH rather than a hardwired
+path. ``/usr/bin/env`` executes the named argument by searching your
+PATH.
+
+| So, putting this all together in the case above, an attempt to
+  execute
+| the actual execution is equivalent to typing
+  ``/usr/bin/env python openpyxl-version``.

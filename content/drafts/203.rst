@@ -1,0 +1,61 @@
+personal genomics
+#################
+:date: 2011-08-13 05:11
+:author: reece
+:category: Uncategorized
+:slug: 203
+:status: draft
+
+.. raw:: html
+
+   <div class="zemanta-img"
+   style="display: block; width: 110px; margin: 1em;">
+
+.. raw:: html
+
+   <div>
+
+|BALTIMORE - OCTOBER 05: Professor Carol Greid...|
+    Image by `Getty
+    Images <http://www.daylife.com/source/Getty_Images>`__ via
+    `Daylife <http://www.daylife.com>`__
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+I'm writing today about the importance of personal genomics and
+personalized medicine.
+
+Related articles by Zemanta
+                           
+
+-  `Personal Genomics Flop.....big Belly
+   Flop! <http://thegenesherpa.blogspot.com/2010/01/personal-genomics-flopbig-belly-flop.html>`__
+   (thegenesherpa.blogspot.com)
+
+.. raw:: html
+
+   <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+
+|Reblog this post [with Zemanta]|\ 
+
+.. raw:: html
+
+   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script>
+
+.. raw:: html
+
+   </div>
+
+.. |BALTIMORE - OCTOBER 05: Professor Carol Greid...| image:: http://cache.daylife.com/imageserve/0ef6djS9mT8YF/100x150.jpg
+   :width: 100px
+   :height: 150px
+   :target: http://www.daylife.com/image/0ef6djS9mT8YF?utm_source=zemanta&utm_medium=p&utm_content=0ef6djS9mT8YF&utm_campaign=z1
+.. |Reblog this post [with Zemanta]| image:: http://img.zemanta.com/reblog_e.png?x-id=f85c5537-1d06-4975-8d4b-c77336a1913c
+   :class: zemanta-pixie-img
+   :target: http://reblog.zemanta.com/zemified/f85c5537-1d06-4975-8d4b-c77336a1913c/
