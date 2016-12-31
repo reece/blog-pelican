@@ -1,0 +1,11 @@
+syntax: glob
+
+*.bak
+*.orig
+*~
+__pycache__
+blog-detritus
+output
+pelican.pid
+srv.pid
+venv
