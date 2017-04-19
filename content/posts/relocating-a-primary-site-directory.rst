@@ -2,7 +2,6 @@ Relocating a primary site directory
 ###################################
 :date: 2010-03-04 12:22
 :author: reece
-:category: Problems of a Prop Head
 :slug: relocating-a-primary-site-directory
 :status: published
 

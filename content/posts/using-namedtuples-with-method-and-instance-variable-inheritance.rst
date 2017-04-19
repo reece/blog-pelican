@@ -2,7 +2,6 @@ Using namedtuples with method and instance variable inheritance
 ###############################################################
 :date: 2013-06-02 16:23
 :author: reece
-:category: Computing, Problems of a Prop Head, Python
 :slug: using-namedtuples-with-method-and-instance-variable-inheritance
 :status: published
 

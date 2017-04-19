@@ -2,7 +2,6 @@ Hello, is this thing on?
 ########################
 :date: 2010-01-23 15:02
 :author: reece
-:category: Hear Ye, Hear Ye
 :slug: hello-is-this-thing-on
 :status: published
 

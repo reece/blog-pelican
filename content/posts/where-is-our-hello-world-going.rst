@@ -2,7 +2,6 @@ Where is our (Hello) World going?!
 ##################################
 :date: 2011-02-15 14:13
 :author: reece
-:category: Uncategorized
 :slug: where-is-our-hello-world-going
 :status: published
 

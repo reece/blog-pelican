@@ -2,7 +2,6 @@ I Joined Berkeley
 #################
 :date: 2010-01-25 05:15
 :author: reece
-:category: Genome Commons, Hear Ye, Hear Ye
 :slug: i-joined-berkeley
 :status: published
 :attachments: reece/wp-content/uploads/2009/12/ph_stanleyhall.jpg

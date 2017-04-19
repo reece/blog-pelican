@@ -2,7 +2,6 @@ The $5K Mistake
 ###############
 :date: 2010-06-03 16:18
 :author: reece
-:category: Personal, San Francisco
 :tags: Glen Park, Het Up, Plumbing
 :slug: the-5k-mistake
 :status: draft

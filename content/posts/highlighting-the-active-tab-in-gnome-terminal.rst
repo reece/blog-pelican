@@ -2,7 +2,6 @@ Highlighting the active tab in GNOME terminal
 #############################################
 :date: 2013-02-26 21:41
 :author: reece
-:category: Uncategorized
 :tags: gnome, ubuntu
 :slug: highlighting-the-active-tab-in-gnome-terminal
 :status: published

@@ -2,7 +2,7 @@ A Roundup of Investigations into Direct-to-Consumer Genetic Testing
 ###################################################################
 :date: 2010-07-24 12:24
 :author: reece
-:category: Genome Commons, Genome Variation, Science
+:tags: Genetics
 :slug: a-roundup-of-investigations-into-direct-to-consumer-genetic-testing
 :status: published
 

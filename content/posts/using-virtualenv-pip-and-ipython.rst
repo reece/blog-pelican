@@ -2,7 +2,6 @@ Using virtualenv, pip, and ipython
 ##################################
 :date: 2011-07-03 21:06
 :author: reece
-:category: Uncategorized
 :slug: using-virtualenv-pip-and-ipython
 :status: published
 

@@ -2,7 +2,6 @@ Bolloxed sharing in Google docs
 ###############################
 :date: 2011-04-16 09:44
 :author: reece
-:category: Problems of a Prop Head
 :slug: bolloxed-sharing-in-google-docs
 :status: published
 :attachments: reece/wp-content/uploads/2011/04/Selection_001.png, reece/wp-content/uploads/2011/04/Selection_002.png

@@ -2,7 +2,6 @@ Monitor your router with (r)syslogd
 ####################################
 :date: 2011-02-12 21:19
 :author: reece
-:category: Problems of a Prop Head
 :slug: monitor-your-router-with-rsyslogd
 :status: published
 :attachments: reece/wp-content/uploads/2011/02/Screenshot-D-LINK-CORPORATION-INC-WIRELESS-ROUTER-HOME-Chromium.png
